@@ -48,3 +48,21 @@ b{
 .p4wn-wrapper{
   /*border: 1px solid yellow;*/
 }
+
+#ee{
+	position: absolute;
+	text-align: center;
+	font-size: 0px;
+	line-height: 15px;
+	height: 45px;
+	bottom: 0;
+	left: calc(50% - 50px);
+	width: 100px;
+	padding: 8px 0;
+	overflow: hidden;
+	transition: all 0.3s ease;
+}
+
+#ee:hover{
+	font-size: 30px;
+}
